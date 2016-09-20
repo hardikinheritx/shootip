@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>startPoints</key>
+        <array>
+            <!--S-->
+            <string>{10,0}</string>
+            <string>{10,0}</string>
+            <string>{10,15}</string>
+            <string>{40,15}</string>
+            <string>{10,30}</string>
+            <!--H-->
+            <string>{60,0}</string>
+            <string>{60,15}</string>
+            <string>{60,15}</string>
+            <string>{85,30}</string>
+            <string>{85,15}</string>
+            <!--O-->
+            <string>{100,0}</string>
+            <string>{130,30}</string>
+            <string>{100,30}</string>
+            <string>{100,0}</string>
+            
+            <!--O-->
+            <string>{145,0}</string>
+            <string>{175,30}</string>
+            <string>{145,30}</string>
+            <string>{145,0}</string>
+            
+            <!--T-->
+            <string>{190,0}</string>
+            <string>{205,0}</string>
+            
+            <!--i-->
+            <string>{235,0}</string>
+            <string>{235,10}</string>
+            
+            <!--p-->
+            <string>{250,0}</string>
+            <string>{250,0}</string>
+            <string>{280,0}</string>
+            <string>{250,15}</string>
+        </array>
+        <key>endPoints</key>
+        <array>
+            <!--S-->
+            <string>{40,0}</string>
+            <string>{10,15}</string>
+            <string>{40,15}</string>
+            <string>{40,30}</string>
+            <string>{40,30}</string>
+            <!--H-->
+            <string>{60,15}</string>
+            <string>{60,30}</string>
+            <string>{85,15}</string>
+            <string>{85,15}</string>
+            <string>{85,0}</string>
+            <!--O-->
+            <string>{100,30}</string>
+            <string>{130,0}</string>
+            <string>{130,30}</string>
+            <string>{130,0}</string>
+            <!--O-->
+            <string>{145,30}</string>
+            <string>{175,0}</string>
+            <string>{175,30}</string>
+            <string>{175,0}</string>
+            <!--T-->
+            <string>{220,0}</string>
+            <string>{205,30}</string>
+            <!--i-->
+            <string>{235,3}</string>
+            <string>{235,30}</string>
+            <!--p-->
+            <string>{250,30}</string>
+            <string>{280,0}</string>
+            <string>{280,15}</string>
+            <string>{280,15}</string>
+            
+            
+        </array>
+    </dict>
+</plist>

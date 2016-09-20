@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CustomAnnotationView">
+            <rect key="frame" x="0.0" y="0.0" width="160" height="50"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ps4-u5-90L">
+                    <rect key="frame" x="0.0" y="0.0" width="160" height="50"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="map_callout_popup" translatesAutoresizingMaskIntoConstraints="NO" id="oIy-hc-dan">
+                            <rect key="frame" x="0.0" y="0.0" width="160" height="50"/>
+                        </imageView>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fz5-bg-cyE" userLabel="LabelView">
+                            <rect key="frame" x="0.0" y="0.0" width="160" height="50"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" preferredMaxLayoutWidth="144" translatesAutoresizingMaskIntoConstraints="NO" id="c9s-KK-AhC">
+                                    <rect key="frame" x="8" y="3" width="144" height="35"/>
+                                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="Fz5-bg-cyE" secondAttribute="trailing" id="7gX-aq-A84"/>
+                        <constraint firstItem="oIy-hc-dan" firstAttribute="top" secondItem="Ps4-u5-90L" secondAttribute="top" id="LMZ-5c-1fE"/>
+                        <constraint firstItem="Fz5-bg-cyE" firstAttribute="top" secondItem="Ps4-u5-90L" secondAttribute="top" id="PbV-zj-eo6"/>
+                        <constraint firstAttribute="bottom" secondItem="oIy-hc-dan" secondAttribute="bottom" id="RKL-Cc-cKe"/>
+                        <constraint firstItem="Fz5-bg-cyE" firstAttribute="leading" secondItem="Ps4-u5-90L" secondAttribute="leading" id="VWi-XH-KbE"/>
+                        <constraint firstAttribute="bottom" secondItem="Fz5-bg-cyE" secondAttribute="bottom" id="dE4-cs-csm"/>
+                        <constraint firstAttribute="trailing" secondItem="oIy-hc-dan" secondAttribute="trailing" id="vlL-lz-iuK"/>
+                        <constraint firstItem="oIy-hc-dan" firstAttribute="leading" secondItem="Ps4-u5-90L" secondAttribute="leading" id="xzg-64-aOd"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Ps4-u5-90L" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="4wA-1e-vKo"/>
+                <constraint firstAttribute="bottom" secondItem="Ps4-u5-90L" secondAttribute="bottom" id="5yT-Sx-S9o"/>
+                <constraint firstItem="Ps4-u5-90L" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="6gx-tc-Duc"/>
+                <constraint firstAttribute="trailing" secondItem="Ps4-u5-90L" secondAttribute="trailing" id="QWq-ek-FKY"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="lblAddress" destination="c9s-KK-AhC" id="8vI-7D-bBg"/>
+                <outlet property="lblAddressView" destination="Fz5-bg-cyE" id="ibO-cL-ep7"/>
+            </connections>
+            <point key="canvasLocation" x="43" y="363"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="map_callout_popup" width="128" height="43"/>
+    </resources>
+</document>
